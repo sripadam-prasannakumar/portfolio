@@ -46,16 +46,16 @@ export default function Navbar({ theme, setTheme }) {
           {/* SOCIALS + THEME TOGGLE (DESKTOP) */}
           <div className="socials desktop">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/prasannakumar-sripadam-9564ab252/"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedin />
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer">
+            <a href="https://github.com/sripadam-prasannakumar" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/prasannakumar_sripadam/" target="_blank" rel="noreferrer">
               <FaInstagram />
             </a>
 
@@ -133,21 +133,21 @@ export default function Navbar({ theme, setTheme }) {
                   transition={{ delay: 0.2 }}
                 >
                   <a
-                    href="https://www.linkedin.com"
+                    href="https://www.linkedin.com/in/prasannakumar-sripadam-9564ab252/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <FaLinkedin />
                   </a>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/sripadam-prasannakumar"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <FaGithub />
                   </a>
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/prasannakumar_sripadam/"
                     target="_blank"
                     rel="noreferrer"
                   >

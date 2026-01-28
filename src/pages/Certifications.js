@@ -2,10 +2,9 @@ import { motion } from "framer-motion";
 import { fadeUp, staggerContainer } from "../animations";
 
 export default function Certifications() {
+  const base = process.env.PUBLIC_URL || "";
+
   return (
-
-
-    
     <section className="page">
       {/* INTERNSHIP SECTION */}
       <motion.h2
@@ -28,13 +27,11 @@ export default function Certifications() {
         whileHover={{ y: -6 }}
       >
         <h3 className="section-subtitle">
-          <strong>Company:</strong> Krify Software Technologies
-        </h3>
+          <strong>Company:</strong> Krify Software Technologies Pvt Ltd
+        </h3> 
+        <br></br>
 
-        <p className="cert-org">
-          
-          Python Full Stack Developer Intern
-        </p>
+        <p className="cert-org">Python Full Stack Developer Intern</p>
 
         <p className="cert-org">
           <strong>Duration:</strong> September 10, 2025 – March 10, 2026 (6 Months)
@@ -43,13 +40,13 @@ export default function Certifications() {
         <p style={{ marginTop: "14px", lineHeight: "1.7" }}>
           Completed a 6-month internship focused on Python Full Stack Development.
           Gained hands-on experience in building scalable web applications using
-          Python, Django, React, and postgreSQL. Worked on backend API development,
+          Python, Django, React, and PostgreSQL. Worked on backend API development,
           frontend integration, and responsive UI design in a professional
           software development environment.
         </p>
       </motion.div>
-      
-      {/* PAGE TITLE */}
+
+      {/* CERTIFICATIONS TITLE */}
       <motion.h2
         className="section-title"
         variants={fadeUp}
@@ -60,7 +57,7 @@ export default function Certifications() {
         Certifications
       </motion.h2>
 
-      {/* CERTIFICATION LIST */}
+      {/* CERTIFICATIONS LIST */}
       <motion.div
         className="cert-grid"
         variants={staggerContainer}
@@ -80,7 +77,7 @@ export default function Certifications() {
           <div className="cert-preview">
             <div className="overlay">
               <a
-                href="/certificates/python-certificate.pdf"
+                href={`${base}/certificates/python-certificate.pdf`}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -102,7 +99,7 @@ export default function Certifications() {
           <div className="cert-preview">
             <div className="overlay">
               <a
-                href="/certificates/sql-certificate.pdf"
+                href={`${base}/certificates/sql-certificate.pdf`}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -112,8 +109,6 @@ export default function Certifications() {
           </div>
         </motion.div>
       </motion.div>
-
-      
     </section>
   );
 }
