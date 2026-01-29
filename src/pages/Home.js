@@ -27,7 +27,7 @@ export default function Home() {
 
           {/* RESUME – VIEW ONLY */}
           <a
-            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            href={`${process.env.PUBLIC_URL}/sripadam-prasannakumar-python-developer-resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn outline"
