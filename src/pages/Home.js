@@ -26,9 +26,9 @@ export default function Home() {
             Contact Me
           </Link>
 
-          {/* RESUME BUTTON (OPENS PDF, NOT DOWNLOAD) */}
+          {/* RESUME – VIEW ONLY (NO DOWNLOAD) */}
           <a
-            href={`${process.env.PUBLIC_URL}/resume.pdf`}
+            href={`${process.env.PUBLIC_URL}/sripadam-prasannakumar-python-developer-resume.pdf`}
             className="btn outline"
             target="_blank"
             rel="noopener noreferrer"
@@ -42,7 +42,7 @@ export default function Home() {
       <div className="hero-img">
         <div className="profile-ring">
           <div className="profile-ring-inner">
-            <img src={image1} alt="Sripadam Prasannakumar profile" />
+            <img src={image1} alt="Prasannakumar profile" />
           </div>
         </div>
       </div>
