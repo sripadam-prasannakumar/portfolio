@@ -16,22 +16,21 @@ export default function Home() {
           Passionate and detail-oriented Full Stack Developer eager to build
           scalable and user-centric web applications. Skilled in Python, Django,
           and modern frontend technologies including HTML, CSS, JavaScript, and
-          React. Experienced in developing RESTful APIs and integrating frontend
-          with backend services.
+          React.
         </p>
 
         <div className="hero-actions">
-          {/* CONTACT BUTTON */}
+          {/* CONTACT */}
           <Link to="/contact" className="btn primary">
             Contact Me
           </Link>
 
-          {/* RESUME – VIEW ONLY (NO DOWNLOAD) */}
+          {/* RESUME – VIEW ONLY */}
           <a
-            href={`${process.env.PUBLIC_URL}/sripadam-prasannakumar-python-developer-resume.pdf`}
-            className="btn outline"
+            href={`${process.env.PUBLIC_URL}/resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
+            className="btn outline"
           >
             My Resume
           </a>

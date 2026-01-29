@@ -1,12 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
-
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
-import Contact from "./pages/Contact";
 import Certifications from "./pages/Certifications";
+import Contact from "./pages/Contact";
 
 import "./App.css";
 
