@@ -1,4 +1,5 @@
 import image1 from "../assets/image1.png";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -20,8 +21,15 @@ export default function Home() {
         </p>
 
         <div className="hero-actions">
-          <a href="/contact" className="btn primary">Contact Me</a>
-          <a href="/resume.pdf" className="btn outline" download>
+          <Link to="/contact" className="btn primary">
+            Contact Me
+          </Link>
+
+          <a
+            href="/resume.pdf"
+            className="btn outline"
+            download
+          >
             My Resume
           </a>
         </div>
