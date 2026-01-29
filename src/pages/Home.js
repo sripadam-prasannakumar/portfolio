@@ -21,14 +21,17 @@ export default function Home() {
         </p>
 
         <div className="hero-actions">
+          {/* CONTACT BUTTON */}
           <Link to="/contact" className="btn primary">
             Contact Me
           </Link>
 
+          {/* RESUME BUTTON (OPENS PDF, NOT DOWNLOAD) */}
           <a
-            href="/resume.pdf"
+            href={`${process.env.PUBLIC_URL}/resume.pdf`}
             className="btn outline"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
           >
             My Resume
           </a>
@@ -39,7 +42,7 @@ export default function Home() {
       <div className="hero-img">
         <div className="profile-ring">
           <div className="profile-ring-inner">
-            <img src={image1} alt="Prasannakumar profile" />
+            <img src={image1} alt="Sripadam Prasannakumar profile" />
           </div>
         </div>
       </div>
