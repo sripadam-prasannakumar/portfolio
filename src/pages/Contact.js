@@ -27,7 +27,7 @@ export default function Contact() {
         <h3>Address</h3>
         <p>
           2-198/1, Sapavaram,<br />
-          Kakinada, Andhra Pradesh
+          Kakinada, Andhra Pradesh, 533005
         </p>
 
         <p className="map-link">
